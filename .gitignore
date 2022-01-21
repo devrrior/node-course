@@ -1,2 +1,5 @@
 
 03-bases-node/node_modules
+03-bases-node/package-lock.json
+03-bases-node/salida
+.DS_Store
