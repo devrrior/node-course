@@ -54,7 +54,6 @@ const pause = async () => {
   console.log('\n');
   await inquirer.prompt([
     {
-      type: 'number',
       name: 'enter',
       message: `Presion ${'enter'.green} para continuar`,
     },
