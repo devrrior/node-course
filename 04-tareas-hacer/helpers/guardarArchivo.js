@@ -8,7 +8,7 @@ const guardarDB = (data) => {
 };
 
 const leerDB = ()=> {
-  if (!fs.existFileSync(archivo)){
+  if (!fs.existsSync(archivo)){
     return null;
   }
 
